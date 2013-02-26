@@ -139,6 +139,9 @@ if has("autocmd")
   " Also load indent files, to automatically do language-dependent indenting.
   filetype plugin indent on
 
+  set nowrap
+  call ToggleWrap()
+
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
@@ -150,7 +153,8 @@ if has("autocmd")
   " Set some QuickCursor helpers:
   " autocmd BufNewFile,BufRead *.txt setlocal wrap linebreak nolist textwidth=0 wrapmargin=0 
   " Set some text-editing related to quickcursor
-  autocmd BufWinEnter /private/var/folders/vk/*/T/* set textwidth=0 wrapmargin=0 ft=markdown bufhidden=delete |
+  autocmd BufWinEnter /private/var/folders/vk/*/T/* 
+              \ set textwidth=0 wrapmargin=0 ft=markdown bufhidden=delete |
   augroup END
 
 else
