@@ -155,6 +155,10 @@ if has("autocmd")
   " Set some text-editing related to quickcursor
   autocmd BufWinEnter /private/var/folders/vk/*/T/* 
               \ set textwidth=0 wrapmargin=0 ft=markdown bufhidden=delete |
+
+  " Auto set nvAlt Notes to MarkDown format
+  autocmd BufWinEnter ~/Dropbox/Notes/* set ft=markdown |
+
   augroup END
 
 else
