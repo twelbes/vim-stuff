@@ -22,3 +22,9 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "dotvim/pack/my_plugins/start/goyo.vim"]
+	path = dotvim/pack/my_plugins/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "dotvim/pack/my_plugins/start/vim-pencil"]
+	path = dotvim/pack/my_plugins/start/vim-pencil
+	url = https://github.com/preservim/vim-pencil.git
