@@ -28,3 +28,9 @@
 [submodule "dotvim/pack/my_plugins/start/vim-pencil"]
 	path = dotvim/pack/my_plugins/start/vim-pencil
 	url = https://github.com/preservim/vim-pencil.git
+[submodule "dotvim/pack/my_plugins/start/colorschemes"]
+	path = dotvim/pack/my_plugins/start/colorschemes
+	url = https://github.com/vim/colorschemes.git
+[submodule "dotvim/colors/gruvbox"]
+	path = dotvim/colors/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
